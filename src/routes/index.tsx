@@ -10,6 +10,7 @@ const Auth = createStackNavigator();
 
 const AuthRoutes = () => (
   <Auth.Navigator
+    initialRouteName="Welcome"
     screenOptions={{
       headerShown: false,
       cardStyle: { backgroundColor: '#212765' },
